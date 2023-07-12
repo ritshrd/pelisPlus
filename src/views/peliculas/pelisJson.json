@@ -1,0 +1,31 @@
+
+    {
+        "peliculas": [
+          {
+            "titulo": "Titanic",
+            "director": "James Cameron",
+            "anio": 1997,
+            "portada": "https://www.dondeir.com/wp-content/uploads/2022/06/volver-al-futuro-musical.jpg",
+            "clasificacion": true
+          },
+          {
+            "titulo": "El Padrino",
+            "director": "Francis Ford Coppola",
+            "anio": 1972,
+            "portada": "https://www.dondeir.com/wp-content/uploads/2022/06/volver-al-futuro-musical.jpg",
+            "clasificacion": false
+          },
+          {
+            "titulo": "Inception",
+            "director": "Christopher Nolan",
+            "anio": 2010,
+            "portada": "https://www.dondeir.com/wp-content/uploads/2022/06/volver-al-futuro-musical.jpg"
+          },
+          {
+            "titulo": "Pulp Fiction",
+            "director": "Quentin Tarantino",
+            "anio": 1994,
+            "portada": "https://www.dondeir.com/wp-content/uploads/2022/06/volver-al-futuro-musical.jpg"
+          }
+        ]
+      }
