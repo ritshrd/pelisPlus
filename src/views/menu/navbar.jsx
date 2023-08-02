@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     
     
-<nav className={`${open? 'w-72' : 'w-16'} duration-300 h-screen lg:left-0 p-4 overflow-y-auto text-center bg-gray-900 `}>
+<nav className={`${open? 'w-[210px] ' : 'w-16 '} duration-300  p-4 text-center bg-gray-900 `}>
 
 
 

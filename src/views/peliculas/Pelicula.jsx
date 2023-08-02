@@ -52,7 +52,7 @@ export default function Pelicula(props) {
     return (
       
 
-<div className="flex flex-col bg-slate-700 w-full p-6 pt-0">
+<div className="flex flex-col bg-slate-700 p-6 pt-0">
       <div>
       
       <h2 className="mt-5 pl-5 text-3xl text-white">Buscar</h2>
