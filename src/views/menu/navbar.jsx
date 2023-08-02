@@ -13,12 +13,12 @@ import { FilmIcon, HomeIcon, XCircleIcon, VideoCameraIcon } from '@heroicons/rea
 
 export default function Navbar() {
 
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   return (
     
     
-<nav className={`${open? 'w-[210px] ' : 'w-16 '} duration-300  p-4 text-center bg-gray-900 `}>
+<nav className={`${open? 'w-[210px] opacity-90' : 'w-16 '} duration-300  p-4 text-center bg-gray-900 h-screen fixed `}>
 
 
 
@@ -55,7 +55,7 @@ export default function Navbar() {
 
        <FilmIcon className="h-6 w-6 text-blue-500" /> 
         <span className={`text-[15px] ml-4 text-gray-200 font-bold ${open? '' : 'hidden'}`}> 
-       Indepenientess </span>
+       Indepenientes </span>
       </div>
       </NavLink> 
 

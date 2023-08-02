@@ -21,12 +21,13 @@ const router = createBrowserRouter([
         path: "/",
         element: 
         
-        <>
+        <><div className='flex'>
          <img
-            className="rounded-xl scale-90 hover:scale-100 duration-300 w-auto h-auto"
+            className="rounded-xl scale-70 w-auto h-auto"
             src={YourImage}
             alt="card image"
           />
+          </div>
       </>
         
         

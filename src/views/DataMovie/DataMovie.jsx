@@ -7,8 +7,9 @@ export default function DataMovie() {
   const movie = location.state;
 
   return (
-    <div className="flex lg:flex-row bg-slate-700 w-full p-8 gap-8 text-white  sm:flex-col">
-      <div className="lg:w-1/3 md:w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-slate-700 pl-20 text-white w-[100%] h-full pt-5">
+        
+      <div className="lg:w-1/2 md:w-full justify-self-center">
         <img className="" src={movie.portada} alt="" />
       </div>
 

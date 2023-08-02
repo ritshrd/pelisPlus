@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Card from "../components/card/card_component";
 import "./style/pelicula.css";
+
 //import pelisJson from'./pelisJson.json'
 
 export default function Pelicula(props) {
@@ -11,6 +12,8 @@ export default function Pelicula(props) {
   const [error, setError] = useState(null);
 
   // Estado de barra de busqueda
+  
+
 
   const [search, setSearch] = useState('')
 
@@ -49,10 +52,16 @@ export default function Pelicula(props) {
   if (loading) {
     return <h1>Loading...</h1>;
   } else {
+
+    
+ 
+
+
     return (
       
+      
 
-<div className="flex flex-col bg-slate-700 p-6 pt-0">
+<div className="flex flex-col bg-slate-700 p-6 pt-0 pl-20">
       <div>
       
       <h2 className="mt-5 pl-5 text-3xl text-white">Buscar</h2>
