@@ -4,12 +4,12 @@ import { Outlet } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <>
-    <div><Navbar/></div>
-    <div>
-        <Outlet/>
-    </div>
+    <div className='flex bg-gray-900'>
+    <Navbar/>
     
-    </>
+        <Outlet/>
+    
+    
+    </div>
   )
 }
